@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Example Checkbox with Internal CSS and JS</title>
+  <style>
+    /* Internal CSS */
+    label {
+      font-weight: bold;
+    }
+
+    input[type=checkbox] {
+      transform: scale(1.5);
+      margin-left: 10px;
+    }
+  </style>
+  <script>
+    // Internal JavaScript
+    function checkboxClicked() {
+      alert("Checkbox clicked!");
+    }
+  </script>
+</head>
+
+<body>
+  <label for="checkbox">Check me:</label>
+  <input type="checkbox" id="checkbox" onclick="checkboxClicked()">
+</body>
+
+</html>
