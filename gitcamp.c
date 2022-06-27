@@ -2,6 +2,5 @@
 
 int main()
 {
-    printf("welcome to gitbootcamp");
-    return 0;
+   printf("welcome to bootcamp");
 }
