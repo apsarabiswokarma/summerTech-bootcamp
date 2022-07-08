@@ -50,13 +50,32 @@
       <h2>Font family</h2>
       <p>The browser's font defaults to <code>"Times"</code>, which can look unappealing (mostly because it is the
         "unstyled" font). Switching to a <strong>sans-serif</strong> font like <code>"Helvetica"</code> or
-        <code>"Arial"</code> can vastly improve the look of your page.</p>
+        <code>"Arial"</code> can vastly improve the look of your page.
+      </p>
       <pre><span class="selector">body</span> {
 <span class="attribute">font-family</span>: <span class="string">"Helvetica"</span>, <span class="string">"Arial"</span>, sans-serif;
 }</pre>
       <p><em>If you want to stick with a serif font, try <code>"Georgia"</code>.</em></p>
       <p>While this makes the text more <em>appealing</em>, let's also make it <a href="#spacing">more readable</a>.</p>
     </section>
+
+    <section id="spacing">
+      <h2>Spacing</h2>
+      <p>When a page looks "broken" to a user, it's usually a <strong>spacing</strong> issue. Providing space both
+        <em>around</em> and <em>within</em> your content can increase the appeal of your page.</p>
+      <pre><span class="selector">body</span> {
+<span class="attribute">line-height</span>: <span class="number">1.5</span>;
+<span class="attribute">padding</span>: <span class="number">4</span><span class="unit">em</span> <span class="number">1</span><span class="unit">em</span>;
+}
+
+<span class="selector">h2</span> {
+<span class="attribute">margin-top</span>: <span class="number">1</span><span class="unit">em</span>;
+<span class="attribute">padding-top</span>: <span class="number">1</span><span class="unit">em</span>;
+}</pre>
+      <p>While the layout has greatly improved so far, let's apply more <a href="#color-contrast">subtle changes</a>.
+      </p>
+    </section>
+
 </body>
 
 </html>
