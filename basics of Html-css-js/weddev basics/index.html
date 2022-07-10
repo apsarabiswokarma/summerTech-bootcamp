@@ -62,7 +62,8 @@
     <section id="spacing">
       <h2>Spacing</h2>
       <p>When a page looks "broken" to a user, it's usually a <strong>spacing</strong> issue. Providing space both
-        <em>around</em> and <em>within</em> your content can increase the appeal of your page.</p>
+        <em>around</em> and <em>within</em> your content can increase the appeal of your page.
+      </p>
       <pre><span class="selector">body</span> {
 <span class="attribute">line-height</span>: <span class="number">1.5</span>;
 <span class="attribute">padding</span>: <span class="number">4</span><span class="unit">em</span> <span class="number">1</span><span class="unit">em</span>;
@@ -77,17 +78,40 @@
     </section>
     <section id="color-contrast">
       <h2>Color &amp; contrast</h2>
-      <p>Black text on a white background can be harsh on the eyes. Opting for a softer shade of black for body text makes the page more <strong>comfortable</strong> to read.</p>
-<pre><span class="selector">body</span> {
+      <p>Black text on a white background can be harsh on the eyes. Opting for a softer shade of black for body text
+        makes the page more <strong>comfortable</strong> to read.</p>
+      <pre><span class="selector">body</span> {
 <span class="attribute">color</span>: <span class="number">#555</span>;
 }</pre>
-      <p>And in order to keep a decent level of <strong>contrast</strong>, let's pick a darker shade for <strong>important</strong> words</p>
-<pre><span class="selector">h1</span>,
+      <p>And in order to keep a decent level of <strong>contrast</strong>, let's pick a darker shade for
+        <strong>important</strong> words</p>
+      <pre><span class="selector">h1</span>,
 <span class="selector">h2</span>,
 <span class="selector">strong</span> {
 <span class="attribute">color</span>: <span class="number">#333</span>;
 }</pre>
-      <p>While most of the page has been improved visually, some elements (like the code snippets) still seem <a href="#balance">out of place</a>.</p>
+      <p>While most of the page has been improved visually, some elements (like the code snippets) still seem <a
+          href="#balance">out of place</a>.</p>
+    </section>
+
+    <section id="balance">
+      <h2>Balance</h2>
+      <p>It only takes a few additional touches to correct the balance of the page:</p>
+      <pre><span class="selector">code</span>,
+<span class="selector">pre</span> {
+<span class="attribute">background</span>: <span class="number">#eee</span>;
+}
+
+<span class="selector">code</span> {
+<span class="attribute">padding</span>: <span class="number">2</span>px <span class="number">4</span>px;
+<span class="attribute">vertical-align</span>: text-bottom;
+}
+
+<span class="selector">pre</span> {
+<span class="attribute">padding</span>: <span class="number">1</span>em;
+}</pre>
+      <p>At this point, you might want to make your page stand out and give it <a href="#primary-color">identity</a>.
+      </p>
     </section>
 
 </body>
