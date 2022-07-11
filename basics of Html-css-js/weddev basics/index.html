@@ -84,7 +84,8 @@
 <span class="attribute">color</span>: <span class="number">#555</span>;
 }</pre>
       <p>And in order to keep a decent level of <strong>contrast</strong>, let's pick a darker shade for
-        <strong>important</strong> words</p>
+        <strong>important</strong> words
+      </p>
       <pre><span class="selector">h1</span>,
 <span class="selector">h2</span>,
 <span class="selector">strong</span> {
@@ -112,6 +113,36 @@
 }</pre>
       <p>At this point, you might want to make your page stand out and give it <a href="#primary-color">identity</a>.
       </p>
+    </section>
+    <section id="primary-color">
+      <h2>Primary color</h2>
+      <p>Most brands have a <strong>primary color</strong> that acts as a visual accent. On a website, this accent can
+        be used to provide emphasis on interactive elements, like <strong>links</strong>.</p>
+      <pre><span class="selector">a</span> {
+<span class="attribute">color</span>: <span class="number">#e81c4f</span>;
+}</pre>
+      <p>But to keep the balance, we will need some <a href="#secondary-colors">additional colors</a>.</p>
+    </section>
+
+    <section id="secondary-colors">
+      <h2>Secondary colors</h2>
+      <p>The accent color can be complemented with more <em>subtle</em> shades, to be used on borders, backgrounds, or
+        even the body text.</p>
+      <pre><span class="selector">body</span> {
+<span class="attribute">color</span>: <span class="number">#566b78</span>;
+}
+
+<span class="selector">code</span>,
+<span class="selector">pre</span> {
+<span class="attribute">background</span>: <span class="number">#f5f7f9</span>;
+<span class="attribute">border-bottom</span>: <span class="number">1</span><span class="unit">px</span> solid <span class="number">#d8dee9</span>;
+<span class="attribute">color</span>: <span class="number">#a7adba</span>;
+}
+
+<span class="selector">pre</span> {
+<span class="attribute">border-left</span>: <span class="number">2</span><span class="unit">px</span> solid <span class="number">#69c</span>;
+}</pre>
+      <p>Having changed the shades, why not change the <a href="#custom-font">shapes</a>...</p>
     </section>
 
 </body>
