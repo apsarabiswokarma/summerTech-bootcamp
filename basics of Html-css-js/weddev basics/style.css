@@ -9,3 +9,13 @@ hr {
   border: none;
   border-bottom: 1px solid #d8dee9;
 }
+
+img {
+  height: auto;
+  max-width: 100%;
+}
+
+pre {
+  overflow: auto;
+  white-space: pre-wrap;
+}
