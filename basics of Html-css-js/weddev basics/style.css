@@ -40,3 +40,20 @@ main {
 body {
   font-family: "Helvetica", "Arial", sans-serif;
 }
+/* 03 Spacing */
+
+body {
+  line-height: 1.5;
+  padding: 4em 1em;
+}
+
+h2 {
+  margin-top: 1em;
+  padding-top: 1em;
+}
+
+/* 04 Color and contrast */
+
+body {
+  color: #555;
+}
