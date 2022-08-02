@@ -57,3 +57,21 @@ h2 {
 body {
   color: #555;
 }
+
+h1,
+h2,
+strong {
+  color: #333;
+}
+
+/* 05 Balance */
+
+code,
+pre {
+  background: #eee;
+}
+
+code {
+  padding: 2px 4px;
+  vertical-align: text-bottom;
+}
