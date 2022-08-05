@@ -75,3 +75,20 @@ code {
   padding: 2px 4px;
   vertical-align: text-bottom;
 }
+
+pre {
+  padding: 1em;
+}
+
+/* 06 Primary color */
+
+a {
+  color: #e81c4f;
+}
+
+/* 07 Secondary colors */
+
+body {
+  background: white;
+  color: #566b78;
+}
