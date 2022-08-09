@@ -104,3 +104,10 @@ pre {
 pre {
   border-left: 2px solid #69c;
 }
+.selector {
+  color: #ec5f67;
+}
+
+.keyword {
+  color: #ab7967;
+}
