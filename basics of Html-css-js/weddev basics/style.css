@@ -111,3 +111,10 @@ pre {
 .keyword {
   color: #ab7967;
 }
+.unit {
+  color: #fac863;
+}
+
+.attribute {
+  color: #5fb3b3;
+}
