@@ -118,3 +118,11 @@ pre {
 .attribute {
   color: #5fb3b3;
 }
+
+.number {
+  color: #f99157;
+}
+
+.string {
+  color: #c594c5;
+}
