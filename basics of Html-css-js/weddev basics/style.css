@@ -126,3 +126,10 @@ pre {
 .string {
   color: #c594c5;
 }
+/* 08 Custom font */
+
+body {
+  font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+  -moz-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+}
