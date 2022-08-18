@@ -133,3 +133,15 @@ body {
   -moz-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
 }
+h1,
+h2,
+strong {
+  font-weight: 500;
+}
+
+/* 09 Images */
+
+body {
+  margin: 0;
+  padding: 0;
+}
