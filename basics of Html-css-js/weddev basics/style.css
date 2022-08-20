@@ -160,3 +160,9 @@ header {
   padding: 10vw 2em;
   text-align: center;
 }
+#logo {
+  display: inline-block;
+  height: 120px;
+  vertical-align: top;
+  width: 120px;
+}
