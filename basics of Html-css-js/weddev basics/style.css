@@ -190,3 +190,9 @@ header a:hover {
   background: #e81c4f;
   color: white;
 }
+/* Classes */
+
+.animate {
+  animation-duration: 1s;
+  animation-name: blink;
+}
