@@ -196,3 +196,12 @@ header a:hover {
   animation-duration: 1s;
   animation-name: blink;
 }
+@keyframes blink {
+  from {
+    background-color: lightyellow;
+  }
+
+  to {
+    background-color: transparent;
+  }
+}
