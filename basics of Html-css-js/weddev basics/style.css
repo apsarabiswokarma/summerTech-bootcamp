@@ -215,3 +215,8 @@ html a.button {
   transition: none 200ms ease-out;
   transition-property: color, background;
 }
+.button:hover {
+  background: #e81c4f;
+  border-color: transparent;
+  color: rgba(255, 255, 255, 0.5);
+}
