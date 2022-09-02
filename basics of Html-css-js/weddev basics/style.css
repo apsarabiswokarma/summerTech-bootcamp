@@ -220,3 +220,10 @@ html a.button {
   border-color: transparent;
   color: rgba(255, 255, 255, 0.5);
 }
+.button em {
+  display: block;
+  font-size: 0.6em;
+  font-style: normal;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+}
