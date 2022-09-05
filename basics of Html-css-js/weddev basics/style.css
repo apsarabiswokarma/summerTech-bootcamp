@@ -227,3 +227,19 @@ html a.button {
   letter-spacing: 0.2em;
   text-transform: uppercase;
 }
+.button strong {
+  color: #e81c4f;
+  transition: color 200ms ease-out;
+}
+
+.button:hover strong {
+  color: white !important;
+}
+
+.button.github strong {
+  color: #333;
+}
+
+.button.github:hover {
+  background: #333;
+}
