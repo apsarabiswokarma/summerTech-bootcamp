@@ -269,3 +269,13 @@ footer .button {
   display: block;
   margin-bottom: 1em;
 }
+
+footer .button {
+  font-size: 0.8em;
+  padding: 1em 2em;
+}
+
+.buttons .button {
+  display: block;
+  margin-bottom: 1em;
+}
