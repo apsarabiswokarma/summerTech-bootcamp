@@ -270,12 +270,23 @@ footer .button {
   margin-bottom: 1em;
 }
 
-footer .button {
-  font-size: 0.8em;
-  padding: 1em 2em;
+/* Resources */
+
+.resources {
+  margin: 1em 0;
+  padding: 0;
 }
 
-.buttons .button {
-  display: block;
-  margin-bottom: 1em;
+.resource {
+  align-items: center;
+  border: 1px solid #d8dee9;
+  border-radius: 5px;
+  color: #566b78;
+  cursor: pointer;
+  display: flex;
+  margin-top: 1em;
+  padding: 1em 2em;
+  text-decoration: none;
 }
+
+
