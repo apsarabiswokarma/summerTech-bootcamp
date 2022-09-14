@@ -289,4 +289,16 @@ footer .button {
   text-decoration: none;
 }
 
+.resource:hover {
+  border-color: #e81c4f;
+}
 
+.resource strong {
+  color: #e81c4f;
+}
+
+.resource .resource-name {
+  color: #333;
+  display: block;
+  font-size: 1.2em;
+}
