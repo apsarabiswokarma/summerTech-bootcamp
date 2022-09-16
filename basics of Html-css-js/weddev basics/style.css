@@ -314,4 +314,14 @@ footer .button {
   text-align: center;
   width: 120px;
 }
+.resource-marksheet .resource-icon {
+  padding: 5px;
+}
 
+.resource-bulma .resource-icon {
+  padding: 10px;
+}
+
+.resource-css-reference .resource-icon {
+  padding: 20px;
+}
