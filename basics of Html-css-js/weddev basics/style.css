@@ -325,3 +325,13 @@ footer .button {
 .resource-css-reference .resource-icon {
   padding: 20px;
 }
+/* Responsiveness */
+
+@media (min-width: 600px) {
+  .buttons {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    padding: 1em 0;
+  }
+}
