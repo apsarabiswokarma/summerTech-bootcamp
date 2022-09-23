@@ -341,3 +341,10 @@ footer .button {
   margin-bottom: 0;
   margin-right: 1em;
 }
+.buttons .button:last-child {
+  margin-right: 0;
+}
+
+.resources {
+  display: flex;
+}
