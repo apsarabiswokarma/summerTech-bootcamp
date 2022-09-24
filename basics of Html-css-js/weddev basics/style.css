@@ -348,3 +348,10 @@ footer .button {
 .resources {
   display: flex;
 }
+.resource {
+  display: block;
+  flex-basis: 0;
+  flex-grow: 1;
+  flex-shrink: 1;
+  text-align: center;
+}
