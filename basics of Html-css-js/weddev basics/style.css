@@ -355,3 +355,10 @@ footer .button {
   flex-shrink: 1;
   text-align: center;
 }
+.resource + .resource {
+  margin-left: 1em;
+}
+
+.resource-icon {
+  margin: 0 auto 1em;
+}
